@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,9 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 62e72fae50e146e4db85c78f75fb3474,
+  m_LightingDataAsset: {fileID: 112000000, guid: c9550ae578d70844284942f0a3fd03ad,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 8c6f4c99698a70d4ca110f23937a83c1,
     type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -329,7 +330,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.7568628, g: 0.039215688, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -841,7 +842,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.75541687, g: 0, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -907,7 +908,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &825607799
 Transform:
@@ -1091,7 +1092,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.75541687, g: 0, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1282,7 +1283,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.75686276, g: 0, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1631,6 +1632,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 74274ac081135674b98589881ea20267, type: 2}
+    - target: {fileID: -7097069802641366057, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4442478604666056186, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -4042910226975651677, guid: 7a459439c567983489512e6f237c0bd5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1646,6 +1657,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8b928a26b444b814ba5218264fdb6f8a, type: 2}
+    - target: {fileID: -1847865256029487178, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -1480370561833387735, guid: 7a459439c567983489512e6f237c0bd5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1656,15 +1672,50 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 74274ac081135674b98589881ea20267, type: 2}
+    - target: {fileID: -674449036139524865, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -390810858881484790, guid: 7a459439c567983489512e6f237c0bd5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 74274ac081135674b98589881ea20267, type: 2}
+    - target: {fileID: -166551934493659324, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7a459439c567983489512e6f237c0bd5,
         type: 3}
       propertyPath: m_Name
       value: DungeonAssets
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3014196641783012769, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4121032810353950534, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151866217149320970, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303844335903649258, guid: 7a459439c567983489512e6f237c0bd5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5447331667604542231, guid: 7a459439c567983489512e6f237c0bd5,
         type: 3}
@@ -1707,7 +1758,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2065221960
 Transform:
